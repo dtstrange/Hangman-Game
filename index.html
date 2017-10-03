@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title class="text-center">Hangman</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div id="hangman-head" class="row">
+        <div class="col-md-12">
+            <h1>Hangman</h1>
+        </div>
+        <!-- end col 12 -->
+    </div>
+    <!-- end row div -->
+    <div class="row">
+    </div>
+    <!-- end row div -->-->
+    <div class="row">
+        <!-- picture section -->
+        <div id="div-pic" class="col-md-3">
+            <img id="game-pic" class="responsive" src="./assets/images/gallows.jpg">
+        </div>
+        <!-- end col 2 div -->
+        <!-- text section -->
+        <div id="div-text" class="col-md-3">
+            <p>Press any key to get started</p>
+            <p id="win" >Wins:</p>
+            <p id="curWord"> Current word</p>
+            <p id="puzzleWord">_ _ _ _ _ _ _ _</p>
+            <p id="lose" style="display: none;">Losses:</p>
+            <p id="guesses">Letters already guessed</p>
+
+        </div>
+        <!-- end col 2 div -->
+    </div>
+    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

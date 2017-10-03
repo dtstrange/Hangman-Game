@@ -1,0 +1,29 @@
+h1{
+	color: white;
+}
+
+body{
+	background-color: black;
+}
+
+#div-pic{
+	/*background-color: blue;*/
+	border: 2px solid white;
+	position: absolute;
+	left: 300px;
+	height: 100%;
+
+}
+
+#div-text{
+	background-color: red;
+	color: white;
+	border: 2px solid white;
+	position: absolute;
+	right: 300px;
+	height: 100%;
+}
+
+#game-pic{
+	max-width: 100%;
+}
