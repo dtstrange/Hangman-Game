@@ -10,34 +10,33 @@
 
 <body>
     <div id="hangman-head" class="row">
-        <div class="col-md-12">
-            <h1>Hangman</h1>
+        <div class="col-md-12 text-center">
+            <h1>Hangman Mythology</h1>
         </div>
         <!-- end col 12 -->
+    
     </div>
     <!-- end row div -->
     <div class="row">
-    </div>
-    <!-- end row div -->-->
-    <div class="row">
         <!-- picture section -->
-        <div id="div-pic" class="col-md-3">
-            <img id="game-pic" class="responsive" src="./assets/images/gallows.jpg">
+        <div id="div-pic" class="col-md-5 col-centered">
+            <img id="game-pic" class="img-responsive" src="./assets/images/gallows.jpg">
+            <p id="sol-info"></p>
         </div>
         <!-- end col 2 div -->
         <!-- text section -->
-        <div id="div-text" class="col-md-3">
+        <div id="div-text" class="col-md-5 col-centered">
             <p>Press any key to get started</p>
+            <p id="currentWord"> Current word</p>
+            <p id="puzzleWord"></p>
             <p id="win" >Wins:</p>
-            <p id="curWord"> Current word</p>
-            <p id="puzzleWord">_ _ _ _ _ _ _ _</p>
-            <p id="lose" style="display: none;">Losses:</p>
+            <p id="lose" ">Losses:</p>
             <p id="guesses">Letters already guessed</p>
 
         </div>
         <!-- end col 2 div -->
     </div>
-    <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 
